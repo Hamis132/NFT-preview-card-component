@@ -194,6 +194,10 @@ strong {
     color: var(--clr-primary-200);
 }
 
+.text-weight-900 {
+    font-weight: var(--fw-900);
+}
+
 .text-white {
     color: var(--clr-neutral-100);
 }
