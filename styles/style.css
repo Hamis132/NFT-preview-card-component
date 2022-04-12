@@ -95,7 +95,7 @@ select {
 
     --fs-700: 1.375rem;
     --fs-400: 1.125rem;   /* 18px*/
-    --fs-300: 0.875rem;
+    --fs-300: 1rem;
 
     --fw-400: 300;
     --fw-700: 400;
@@ -202,6 +202,10 @@ strong {
     font-weight: var(--fw-900);
 }
 
+.text-weight-600 {
+    font-weight: var(--fw-700);
+}
+
 .text-white {
     color: var(--clr-neutral-100);
 }
@@ -243,7 +247,7 @@ strong {
 }
 
 .text-small {
-    font-size: 1rem;
+    font-size: var(--fs-300);
 }
 
 .border-top {
