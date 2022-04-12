@@ -114,7 +114,10 @@ body {
     line-height: 1.4;
     background-color: var(--clr-neutral-200);
     color: var(--clr-primary-100);
+}
 
+main {
+    
     /* for demo only*/
     display: flex;
     justify-content: center;
@@ -130,13 +133,14 @@ h3 {
     line-height: 1.2;
 }
 
-h2 {
+h1 {
     font-size: var(--fs-700);
+    font-weight: var(--fw-900);
     color: var(--clr-neutral-100);
 }
 
-h2:hover,
-h2:focus {
+h1:hover,
+h1:focus {
     color: var(--clr-primary-200);
     transition: .5s ease;
     cursor: pointer;
